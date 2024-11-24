@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "bible-analysis"
+version = "0.1.0"
+description = ""
+authors = ["Philip Hierhager <79938817+phierhager@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+nltk = "^3.9.1"
+numpy = "^2.1.3"
+scikit-learn = "^1.5.2"
+networkx = "^3.4.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
